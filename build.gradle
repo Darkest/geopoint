@@ -1,0 +1,15 @@
+group 'ru.darkest'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'scala'
+
+
+dependencies {
+    compile group: 'org.scala-lang', name: 'scala-compiler', version: '2.12.3'
+    compile 'org.apache.camel:camel-core:2.19.3'
+    testCompile group: 'org.scalatest', name: 'scalatest_2.12', version: '3.2.0-SNAP9'
+}
