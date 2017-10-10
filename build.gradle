@@ -11,5 +11,6 @@ apply plugin: 'scala'
 dependencies {
     compile group: 'org.scala-lang', name: 'scala-compiler', version: '2.12.3'
     compile 'org.apache.camel:camel-core:2.19.3'
+    compile 'info.mukel:telegrambot4s_2.12:3.0.9'
     testCompile group: 'org.scalatest', name: 'scalatest_2.12', version: '3.2.0-SNAP9'
 }

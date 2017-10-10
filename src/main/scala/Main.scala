@@ -1,3 +1,4 @@
-class Main extends App{
+object Main extends App{
+    GeoBot.run()
 
 }
